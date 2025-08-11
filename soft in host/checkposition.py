@@ -40,8 +40,8 @@ class ClickRecorder:
 
                 # Пытаемся получить относительные координаты
                 try:
-                    app = Application(backend="uia").connect(title="Ragdoll")
-                    window = app.window(title="Ragdoll")
+                    app = Application(backend="uia").connect(title="Phoenix BIOS Editor Pro - 6006.ROM")
+                    window = app.window(title="Phoenix BIOS Editor Pro - 6006.ROM")
                     rect = window.rectangle()
                     rel_x = abs_x - rect.left
                     rel_y = abs_y - rect.top
