@@ -5,7 +5,6 @@ from pywinauto.findwindows import ElementNotFoundError
 import time
 import pyautogui
 from pywinauto import Application
-from typing import List, Tuple, Optional
 
 def is_admin():
     try:
